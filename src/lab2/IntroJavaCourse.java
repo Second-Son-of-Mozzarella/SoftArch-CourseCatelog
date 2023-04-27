@@ -6,7 +6,7 @@ package lab2;
  * @author your name goes here
  * @version 1.00
  */
-public class IntroJavaCourse {
+public class IntroJavaCourse implements Courseable{
 
     String courseName;
     private String courseNumber;
@@ -15,7 +15,7 @@ public class IntroJavaCourse {
 
     public IntroJavaCourse(String courseName, String courseNumber) {
         this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        this.courseNumber = (courseNumber);
     }
 
     public String getCourseNumber() {
